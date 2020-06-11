@@ -1,0 +1,39 @@
+.text-center {
+    text-align: center;
+}
+
+.about-title {
+    font-weight: 700;
+    color: rgba(0, 0, 0, .85);
+    font-size: 38px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: .5em;
+    margin-top: 40px;
+}
+
+.separator {
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin: 15px auto;
+    background-color: #ccc;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.separator:after {
+    width: 30px;
+    height: 5px;
+    background: #333;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    content: "";
+}
+
+.lead {
+    font-weight: 340;
+    margin-left: 17%;
+    margin-right: 17%;
+}
